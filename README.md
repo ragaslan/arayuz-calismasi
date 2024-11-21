@@ -1,8 +1,15 @@
-# React + Vite
+# Arayüz Çalışması 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Figma dosyası bulunan arayüz tasarımının responsive olarak Tailwind veya Bootstrap kullanarak kodlanması gerekmektedir.
 
-Currently, two official plugins are available:
+Gerekli yerlerde dinamik tasarım özelliklerinin çalışır olması, (Örneğin ; ileri-geri butonları ile elementlerin kaydırılması vb.) beklenmektedir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# install dependencies
+```
+npm install
+```
+
+# start
+```
+npm run dev
+```
