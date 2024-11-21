@@ -1,0 +1,133 @@
+body{
+    background-color: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%);
+    
+}
+.logo{
+  font-size: 32px;
+  line-height: 35px;
+}
+.introduction{
+  background-image: url('./assets/introduction/rectangle.png');
+  background-size:cover;
+}
+
+@media (max-width:768px) {
+  .sneaker-box{
+    background-image: url('./assets/introduction/rectangle.png');
+    background-size: cover;
+    min-height: 350px;
+  }
+}
+
+@media (max-width:768px) {
+  .introduction{
+    background-image: none;
+  }
+}
+
+.whyJoinUsShadow{
+  box-shadow: 0px 0px 10px 0px #00000012;
+  /* box-shadow: 0px 20px 25px -5px #0000001A; */
+
+}
+.myShadow{
+  box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.1);
+}
+
+.waveBg{
+  background-image: url("./assets/beforeFooter/waves.png");
+  background-position: bottom right;
+  background-size: cover;
+  min-height: 700px;
+}
+
+
+@media (max-width:768px) {
+  .yellowBgWidth{
+    width: 100% !important;
+    left: 0 !important;
+  }
+  .waveBg{
+    min-height: 500px;
+  }
+}
+.yellowBgWidth{
+  width: calc(100% - 192px);
+}
+
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .color-brown {
+    color: #78350F;
+  }
